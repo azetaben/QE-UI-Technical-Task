@@ -1,0 +1,8 @@
+node_modules/
+dist/
+legacy/
+test-results/
+test-result/
+allure-results/
+allure-report/
+package-lock.json

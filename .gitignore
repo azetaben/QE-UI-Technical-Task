@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+.idea/
+.env
+.env.*
+!.env.example
+# Shared, secret-free profiles are committed; personal overrides live in the root .env.
+!env/.env.*
+test-results/
+test-result/
+playwright-report/
+allure-results/
+allure-report/
+@rerun.txt

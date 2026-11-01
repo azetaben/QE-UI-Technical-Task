@@ -1,0 +1,11 @@
+services:
+  ui-tests:
+    build: .
+    init: true
+    ipc: host
+    environment:
+      # The ci profile (env/.env.ci) supplies headless, timeouts, workers and retries.
+      ENV: ci
+      BROWSER: ${BROWSER:-chromium}
+    volumes:
+      - ./test-results:/app/test-results

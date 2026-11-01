@@ -1,0 +1,9 @@
+node_modules
+test-results
+test-result
+allure-results
+allure-report
+legacy
+.git
+.idea
+.env

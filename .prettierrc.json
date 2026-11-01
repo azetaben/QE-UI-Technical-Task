@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "printWidth": 100,
+  "tabWidth": 4,
+  "bracketSpacing": false,
+  "overrides": [{"files": ["*.json", "*.yml", "*.yaml"], "options": {"tabWidth": 2, "bracketSpacing": true}}]
+}
